@@ -1,29 +1,33 @@
 ---
 layout: post
 title:  "BottomSheetBuilder"
-date:   2016-08-11 19:00:00
 categories: library
 ---
 The support library 23.2.0 introduced a couple of classes to create BottomSheets, so I figured out we should have an easy way to setup a simple BottomSheet with some options.
 
-You can get BottomSheetBuilder on: https://github.com/rubensousa/BottomSheetBuilder
+You can get BottomSheetBuilder on:
+[https://github.com/rubensousa/BottomSheetBuilder](https://github.com/rubensousa/BottomSheetBuilder)
 
 To inflate a View with a BottomSheetBehavior inside a CoordinatorLayout:
-``` java
+
+{% highlight java %}
 View bottomSheet = new BottomSheetBuilder(context,coordinatorLayout)
         .setMode(BottomSheetBuilder.MODE_GRID)
         .setBackgroundColor(android.R.color.white)
         .setMenu(R.menu.menu_bottom_grid_sheet)
         .createView();
-```
+{% endhighlight %}
+
 The menu resource is used for the grid of options.
 
 The previous code creates a BottomSheet similar to this screen:
-![Grid](https://github.com/rubensousa/BottomSheetBuilder/blob/master/screens/sheet-grid.png)
+
+<img src="https://github.com/rubensousa/BottomSheetBuilder/blob/master/screens/sheet-grid.png?raw=true" width="300">
+
 
 To create a BottomSheetDialog with a custom style:
 
-```java
+{% highlight java %}
 BottomSheetDialog dialog = new BottomSheetBuilder(context, R.style.AppTheme_BottomSheetDialog)
               .setMode(BottomSheetBuilder.MODE_LIST)
               .setBackgroundColor(android.R.color.white)
@@ -31,6 +35,11 @@ BottomSheetDialog dialog = new BottomSheetBuilder(context, R.style.AppTheme_Bott
               .createDialog();
 
 dialog.show();
-```
+{% endhighlight %}
+
 And the result is something like this:
-![List](https://github.com/rubensousa/BottomSheetBuilder/blob/master/screens/sheet-list-submenu.png)
+
+<img src="https://github.com/rubensousa/BottomSheetBuilder/blob/master/screens/sheet-list-submenu.png?raw=true" width="300">
+
+
+I recommend the BottomSheetDialog over the inflated view if you want a simple list of options. The dialog gives more focus to them since it darkens the background.
