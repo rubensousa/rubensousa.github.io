@@ -2,20 +2,17 @@
 layout: page
 title: Rúben Sousa
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis [nostrud exercitation](http://alexcarpenter.me) ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I'm a student of Telecommunications and Informatics at University of Minho hoping to finish my master's degree on 2017.
+I'm also a part-time Android developer freelancer.
 
-## Heading Level 2
+I spend a lot of my free time developing some projects in Android and Java, some of which are open source and available on my GitHub account:
+[https://github.com/rubensousa](https://github.com/rubensousa)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+You can also find my Android apps in Google Play: [https://github.com/rubensousa](https://play.google.com/store/apps/developer?id=rubensousa)
 
-{% highlight scss %}
-  .header {
-    font-size: 100px;
-  }
-{% endhighlight %}
+This is my personal blog, where I'll be posting content related to software engineering.
 
-### Heading Level 3
+### Stuff that I'm currently learning
 
-> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- Android testing (Espresso and JUnit tests)
+- Dependency injection with Dagger2
