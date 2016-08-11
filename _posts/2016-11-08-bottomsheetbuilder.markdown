@@ -1,4 +1,9 @@
-#BottomSheetBuilder
+---
+layout: post
+title:  "BottomSheetBuilder"
+date:   2016-08-11 19:00:00
+categories: library
+-------------------
 The support library 23.2.0 introduced a couple of classes to create BottomSheets, so I figured out we should have an easy way to setup a simple BottomSheet with some options.
 
 You can get BottomSheetBuilder on: https://github.com/rubensousa/BottomSheetBuilder
