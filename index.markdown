@@ -19,7 +19,7 @@ This is my personal blog, where I'll be posting content related to software engi
 
 ## Recent articles
 
-{% for post in site.posts limit:4 %}
+{% for post in site.posts limit: 3 %}
 <li class="c-archives__item">
             <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
             <p>{{ post.date | date: "%b %-d, %Y" }}</p>
