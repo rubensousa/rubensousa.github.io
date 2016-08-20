@@ -21,7 +21,7 @@ This is my personal blog, where I'll be posting content related to software engi
 <br>
 <br>
 
-## Recent articles
+# Recent articles
 
 {% for post in site.posts limit:4 %}
    <div class="post-preview">
