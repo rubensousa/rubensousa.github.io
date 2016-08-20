@@ -23,10 +23,14 @@ This is my personal blog, where I'll be posting content related to software engi
 
 ## Recent articles
 
-{% for post in site.posts limit: 3 %}
-<li class="c-archives__item">
-            <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-            <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-              <div>{{ post.content |truncatehtml | truncatewords: 30 }}</div>
-        </li>
+{% for post in site.posts limit:4 %}
+   <div class="post-preview">
+   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+   <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+   {{ post.content | split:'<!--break-->' | first }}
+   {% if post.content contains '<!--break-->' %}
+      <a href="{{ post.url }}">Read more</a>
+   {% endif %}
+   </div>
+   <hr>
 {% endfor %}
