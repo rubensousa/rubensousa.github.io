@@ -17,6 +17,10 @@ This is my personal blog, where I'll be posting content related to software engi
 - Android testing (Espresso and JUnit tests)
 - Dependency injection with Dagger2
 
+<br>
+<br>
+<br>
+
 ## Recent articles
 
 {% for post in site.posts limit: 3 %}
