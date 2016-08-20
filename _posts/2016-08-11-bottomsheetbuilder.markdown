@@ -23,6 +23,7 @@ The menu resource is used for the grid of options.
 
 The previous code creates a BottomSheet similar to this screen:
 
+{: .center}
 <img src="https://github.com/rubensousa/BottomSheetBuilder/blob/master/screens/sheet-grid.png?raw=true" width="300">
 
 
@@ -40,6 +41,7 @@ dialog.show();
 
 And the result is something like this:
 
+{: .center}
 <img src="https://github.com/rubensousa/BottomSheetBuilder/blob/master/screens/sheet-list-submenu.png?raw=true" width="300">
 
 
