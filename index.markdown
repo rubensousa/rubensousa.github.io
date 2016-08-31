@@ -2,7 +2,7 @@
 layout: page
 title: Rúben Sousa
 ---
-I'm a student of Telecommunications and Informatics at University of Minho hoping to finish my master's degree on 2017.
+I'm a student of Telecommunications and Computer Engineering at University of Minho hoping to finish my master's degree on 2017.
 I'm also a part-time Android developer freelancer.
 
 I spend a lot of my free time developing some projects in Android and Java, some of which are open source and available on my GitHub account:
