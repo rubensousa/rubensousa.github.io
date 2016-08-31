@@ -12,8 +12,9 @@ The 24.2.0 version of the support library introduced two new classes
 
 You've probably already noticed this in the Google Play app:
 
-{: .center}
-<img src="{{ site.baseurl }}/img/snap_googleplay.gif" width="300">
+<video class='centerVid' width="300" height="533" controls>
+    <source src="{{ site.baseurl }}/img/snap_googleplay.webm" type="video/webm">
+</video>
 
 As you can see, the RecyclerView snaps to the first item in the adapter.
 
@@ -31,8 +32,9 @@ snapHelper.attachToRecyclerView(recyclerView);
 
 This produces the following result:
 
-{: .center}
-<img src="{{ site.baseurl }}/img/snap_center.gif" width="300">
+<video class='centerVid' width="300" height="533" controls>
+    <source src="{{ site.baseurl }}/img/snap_center.webm" type="video/webm">
+</video>
 
 To replicate the Google Play behavior, we need to override the **calculateDistanceToFinalSnap**
 and **findSnapView** methods of the LinearSnapHelper to find the start view and calculate the distance needed to snap it to the correct position.
@@ -55,8 +57,9 @@ LinearLayoutManager.HORIZONTAL, false));
 
 Here's a complete example:
 
-{: .center}
-<img src="{{ site.baseurl }}/img/snap_final.gif" width="300">
+<video class='centerVid' width="300" height="533" controls>
+    <source src="{{ site.baseurl }}/img/snap_final.webm" type="video/webm">
+</video>
 
 
 This sample is available on my Github:
