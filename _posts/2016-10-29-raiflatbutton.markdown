@@ -31,7 +31,7 @@ From that file, we can see that:
 - When the button is disabled, the elevation becomes 0dp
 
 
-What I did was creating a similar one, but instead of applying a positive z-translation and 2dp of elevation, we just set both to 0.
+What I did was creating a similar one, but instead of applying a positive z-translation and 2dp of elevation, I just set both to 0.
 
 ## Lowering the button
 
