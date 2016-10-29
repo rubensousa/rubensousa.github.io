@@ -20,7 +20,9 @@ But why should it lift? Does your finger work like a magnet? When you press any 
 
 <!--break-->
 
-To lift the raised button, Android uses this [StateListAnimator](https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/anim/button_state_list_anim_material.xml)
+## Default implementation
+
+To lift the raised button, Android uses this [StateListAnimator](https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/anim/button_state_list_anim_material.xml).
 
 From that file, we can see that:
 
@@ -28,8 +30,12 @@ From that file, we can see that:
 - When the button isn't pressed, the elevation is 2dp
 - When the button is disabled, the elevation becomes 0dp
 
+
 What I did was creating a similar one, but instead of applying a positive z-translation and 2dp of elevation, we just set both to 0.
-Here's the StateListAnimator: [link](https://github.com/rubensousa/RaiflatButton/blob/master/raiflatbutton/src/main/res/drawable/raiflatbutton_statelistanimator.xml).
+
+## Lowering the button
+
+Here's a StateListAnimator that can lower the button: [link](https://github.com/rubensousa/RaiflatButton/blob/master/raiflatbutton/src/main/res/drawable/raiflatbutton_statelistanimator.xml).
 
 Now, you could set this to a button using the **android:stateListAnimator** attribute, but with this approach, you won't be able to use a different elevation, since the value will be hardcoded.
 
