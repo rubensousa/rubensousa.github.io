@@ -8,9 +8,9 @@ I'm also a part-time Android developer freelancer.
 I spend a lot of my free time developing some projects in Android and Java, some of which are open source and available on my GitHub account:
 [https://github.com/rubensousa](https://github.com/rubensousa)
 
-You can also find my Android apps in Google Play: [https://play.google.com/store/apps/developer?id=rubensousa](https://play.google.com/store/apps/developer?id=rubensousa)
+You can also find my Android apps in Google Play: [https://play.google.com/store/apps/dev?id=7082193994052369988](https://play.google.com/store/apps/dev?id=7082193994052369988)
 
-This is my personal blog, where I'll be posting content related to software engineering.
+My most recent app is a helper for a European lottery called Euromillions: [https://play.google.com/store/apps/details?id=io.github.rubensousa.euromillions](https://play.google.com/store/apps/details?id=io.github.rubensousa.euromillions)
 
 ### Stuff that I'm currently learning
 
