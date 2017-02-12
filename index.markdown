@@ -11,11 +11,6 @@ You can also find my Android apps in Google Play: [https://play.google.com/store
 
 My most recent app is a helper for a European lottery called Euromillions: [https://play.google.com/store/apps/details?id=io.github.rubensousa.euromillions](https://play.google.com/store/apps/details?id=io.github.rubensousa.euromillions)
 
-### Stuff that I'm currently learning
-
-- Android testing (Espresso and JUnit tests)
-- Dependency injection with Dagger2
-
 <br>
 <br>
 <br>
